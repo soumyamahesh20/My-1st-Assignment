@@ -21,7 +21,7 @@ img{
    margin-right: 100px;
 }
 .headings a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-decoration: none;
 color: darkgreen;
 border: 2px solid rgb(233, 53, 9);
@@ -55,6 +55,5 @@ background-color: rgb(126, 218, 83);
     left: 0;
     min-height:680px;
 }
-
 
 
