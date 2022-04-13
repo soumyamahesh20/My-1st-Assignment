@@ -6,38 +6,61 @@
 
 header{
     background-color: rgb(192, 227, 67);
-    height:10em;
+    height:5em;
 }
 
 img{
     
-    height: 60px;
-    width: 100px;
-
+    height: 50px;
+    width: 90px;
 }
+
 .headings{
-    float: right;
-   padding: 20px;
-   margin-right: 100px;
+   float: right;
+  
+   padding: 1px;
+   margin-top: 25px;
+   margin-right: 10px;
 }
 .headings a{
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-decoration: none;
-color: darkgreen;
-border: 2px solid rgb(233, 53, 9);
-padding: 2px;
-margin-right: 2px;
-background-color: rgb(126, 218, 83);
+color: rgb(235, 240, 237);
+border: 2px solid rgba(10, 10, 10, 0.125);
+padding-top: 5px;
+
+margin-right: 20px;
+background-color: rgb(84, 87, 94);
 }
 .headings a:hover{
     background-color: rgb(134, 227, 232);
     color: blue;
     transition: 0.2s;
 }
+.dropdown{
+    float: right;
+    padding-top: 20px;
+    padding-right: 150px;
+}
+.title2{
+    color: rgb(64, 61, 221);
+
+    margin-left: 700px;
+    margin-top:-47px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    float: right;
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -40px;
+  margin-right: 600px;
+  
+}
+
+
 .carousel-item-active{
     height:680px;
-  
-
 }
 .carousel-item-active img{
     position: absolute;
@@ -54,6 +77,7 @@ background-color: rgb(126, 218, 83);
     top: 0;
     left: 0;
     min-height:680px;
+    transition: .5s;
 }
 
 
